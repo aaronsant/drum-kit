@@ -39,7 +39,7 @@ function handleClick(buttonLetter) {
             break
     }
 
-    var audio =  new Audio("./sounds/" + f + "?raw=true");
+    var audio =  new Audio("https://github.com/aaronsant/drum-kit/blob/main/sounds/" + f + "?raw=true");
     audio.play()
 }
 
@@ -70,7 +70,7 @@ function handleKey(key) {
             break
     }
 
-    var audio =  new Audio("./sounds/" + f + "?raw=true");
+    var audio =  new Audio("https://github.com/aaronsant/drum-kit/blob/main/sounds/" + f + "?raw=true");
     audio.play()
 }
 
